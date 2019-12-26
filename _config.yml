@@ -16,7 +16,7 @@ cover:
   path: /images/cover1.jpg  # images目录下附送多张美图，可更换
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
-# 页面顶部进度条  
+# 页面顶部进度条
 progressBar: true
 
 # 文章配置
@@ -54,7 +54,7 @@ rss: /atom.xml
 
 # 1、Valine[一款快速、简洁且高效的无后端评论系统](https://github.com/xCss/Valine)
 # 启用Valine必须先创建leancloud应用， 获取 id|key 填入即可
-leancloud:  
+leancloud:
   enable: false
   app_id: #
   app_key: #
@@ -74,10 +74,9 @@ gitalk:
   admin: # GitHub ID
 
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
-github: 
+github:
   # (关闭请设置为false)
-  enable: false
-  url: https://github.com/Shen-Yu/hexo-theme-ayer
+  url: false
 
 # fancybox(仅用于相册展示，若需要可配置albums)
 fancybox: true
@@ -103,4 +102,4 @@ mathjax: false
 since: 2019
 
 #是否显示页脚信息(建议保留，有助于本主题的推广)
-pageFooter: true
+pageFooter: false
