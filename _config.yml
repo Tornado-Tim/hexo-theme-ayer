@@ -1,11 +1,9 @@
 # 侧边栏菜单
 menu:
-  主页: /
-  目录: /archives
-  标签: /tags
-  旅行: /tags/旅行/
-  摄影: http://shenyu-vip.lofter.com
-  关于我: /2019/about
+  Home: /
+  Archive: /archives
+  Tags: /tags
+  About: /about
 
 # 网站图标和侧边栏logo
 favicon: /favicon.ico
@@ -19,7 +17,7 @@ cover:
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
 # 页面顶部进度条  
-progressBar: ture
+progressBar: true
 
 # 文章配置
 # 文章太长，截断按钮文字(在需要截断的行增加此标记：<!--more-->)
@@ -28,10 +26,10 @@ excerpt_link: 阅读更多...
 share_text: 分享
 # 分页文字
 nav_text:
-  page_prev: 上一页
-  page_next: 下一页
-  post_prev: 上一篇
-  post_next: 下一篇
+  page_prev: Prev Page
+  page_next: Next Page
+  post_prev: Prev Post
+  post_next: Next Post
 
 # 文章页是否显示目录
 toc: true
@@ -57,12 +55,12 @@ rss: /atom.xml
 # 1、Valine[一款快速、简洁且高效的无后端评论系统](https://github.com/xCss/Valine)
 # 启用Valine必须先创建leancloud应用， 获取 id|key 填入即可
 leancloud:  
-  enable: true
+  enable: false
   app_id: #
   app_key: #
 # Valine配置
 valine:
-  enable: true # 是否启用
+  enable: false # 是否启用
   avatar: mp # 头像样式(https://valine.js.org/avatar.html)
   placeholder: 给我的文章加点评论吧~ # placeholder
 
@@ -78,6 +76,7 @@ gitalk:
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
 github: 
   # (关闭请设置为false)
+  enable: false
   url: https://github.com/Shen-Yu/hexo-theme-ayer
 
 # fancybox(仅用于相册展示，若需要可配置albums)
@@ -85,11 +84,11 @@ fancybox: true
 
 # 访问量统计(不蒜子)
 busuanzi:
-  enable: true
+  enable: false
 
 # 友盟cnzz统计(url填js代码src链接)
 cnzz:
-  enable: true
+  enable: false
   url: https://s9.cnzz.com/z_stat.php?id=1278069914&web_id=1278069914
 
 # Google Analytics
@@ -101,7 +100,7 @@ baidu_analytics: ''
 mathjax: false
 
 # 网站成立年份(默认为 2019，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2015
+since: 2019
 
 #是否显示页脚信息(建议保留，有助于本主题的推广)
 pageFooter: true
