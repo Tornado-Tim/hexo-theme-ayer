@@ -39,9 +39,9 @@ reward_type: 0
 # 打赏wording
 reward_wording: 'Buy me a cup of coffee'
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
-alipay: /images/alipay.jpg
+alipay: false
 # 微信二维码图片地址
-weixin: /images/wechat.jpg
+weixin: false
 
 # 是否启用搜索
 search: true
@@ -59,7 +59,7 @@ leancloud:
   app_key: #
 # Valine配置
 valine:
-  enable: true # 是否启用
+  enable: false # 是否启用
   avatar: mp # 头像样式(请我喝杯咖啡吧)
   placeholder: Add a comment to my article~ # placeholder
 
